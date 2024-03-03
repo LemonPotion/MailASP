@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Отправьте сообщение";
+}
+<h1>@ViewData["Title"]</h1>
+<form id="emailForm" action="/Home/Privacy" method="post">
+    <button type="submit">Отправить Email</button>
+    <input type="email" name="Email" placeholder="Введите почту" />
+    <input type="text" name="Subject" placeholder="Введите тему" />
+    <textarea name="message" placeholder="Введите сообщение"></textarea>
+</form>
