@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MailASP.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Lemon\\OneDrive\\Рабочий стол\\MailASP\\wwwroot\\css\\MessageForm.css",
+      "PackagePath": "staticwebassets\\css\\MessageForm.css"
+    },
+    {
       "Id": "C:\\Users\\Lemon\\OneDrive\\Рабочий стол\\MailASP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

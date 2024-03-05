@@ -1,10 +1,12 @@
 ﻿@{
-    ViewData["Title"] = "Отправьте сообщение";
+    ViewData["Title"] = "Сообщения";
 }
 <h1>@ViewData["Title"]</h1>
-<form id="emailForm" action="/Home/Privacy" method="post">
-    <button type="submit">Отправить Email</button>
-    <input type="email" name="Email" placeholder="Введите почту" />
-    <input type="text" name="Subject" placeholder="Введите тему" />
-    <textarea name="message" placeholder="Введите сообщение"></textarea>
+<link rel="stylesheet" href="~/css/MessageForm.css">
+<form id="emailForm" action="/Home/SendEmail" method="post">
+    
+    <input type="email" name="Email" placeholder="Отправить сообщение" required class="input-field" />
+    <input type="text" name="Subject" placeholder="Тема" required class="input-field" />
+    <textarea name="message" placeholder="Сообщение" required class="textarea-field"></textarea>
+    <button type="submit" class="send-button">Отправить</button>
 </form>

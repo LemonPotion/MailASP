@@ -1,0 +1,42 @@
+﻿.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-field, .textarea-field {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.textarea-field {
+    height: 120px;
+}
+
+.button-container {
+    width: 100%;
+}
+
+.send-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}

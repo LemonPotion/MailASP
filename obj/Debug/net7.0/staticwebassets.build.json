@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tka819Abu73W1d6SGCGyFSXm/9OCsvgoEogtxPUA5P8=",
+  "Hash": "32UMDrRMIhDnDSSXW8rOLh6sYM3o3zb3gv5Vw9Tb2Oc=",
   "Source": "MailASP",
   "BasePath": "_content/MailASP",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lemon\\OneDrive\\Рабочий стол\\MailASP\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MailASP.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lemon\\OneDrive\\Рабочий стол\\MailASP\\wwwroot\\css\\MessageForm.css",
+      "SourceId": "MailASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lemon\\OneDrive\\Рабочий стол\\MailASP\\wwwroot\\",
+      "BasePath": "_content/MailASP",
+      "RelativePath": "css/MessageForm.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MessageForm.css"
     },
     {
       "Identity": "C:\\Users\\Lemon\\OneDrive\\Рабочий стол\\MailASP\\wwwroot\\css\\site.css",

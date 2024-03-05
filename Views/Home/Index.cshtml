@@ -1,8 +1,74 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to MailASP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #ddd;
+        }
+
+        .feature {
+            background-color: #333;
+            color: #ddd;
+            border-radius: 15px;
+            box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            text-align: center;
+            width: calc(33.333% - 2rem);
+            margin: 1rem;
+            box-sizing: border-box;
+            transition: opacity 0.9s ease;
+        }
+
+            .feature:hover {
+                opacity: 0.7;
+            }
+
+            .feature:last-child {
+                margin-bottom: 0;
+            }
+            .text-center
+            {
+                color:black;
+            }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 text-center">Добро пожаловать в MailAsp</h1>
+        <p class="lead text-center">Поделка студента на коленке</p>
+        <div class="row">
+            <div class="feature">
+                <h2>Отправьте сообщение</h2>
+                <p>С легкостью отправляете сообщения на любую почту мира!</p>
+                <p><span class="highlight">1,000+</span> поддерживаемых провайдеров</p>
+            </div>
+            <div class="feature">
+                <h2>Гарантия качества</h2>
+                <p>Не доверяйте сообщениям отправленным через это приложение</p>
+                <p>Я все вижу в консоли :)</p>
+            </div>
+            <div class="feature">
+                <h2>Активная поддержка</h2>
+                <p>Студент устал и работает над проектом из последних сил</p>
+                <p>Почему этот блок другого размера:(</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
